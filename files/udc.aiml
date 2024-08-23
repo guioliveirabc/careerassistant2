@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Introductory Message -->
+  <category>
+    <pattern>WELCOME</pattern>
+    <template>
+      Welcome! I'm here to assist you with your career-related questions and help you identify your interests and skills in computing. How can I help you today?
+    </template>
+  </category>
+
+  <!-- Simple Test Patterns -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello there! How can I assist you with your career today?</template>
+  </category>
+
+  <category>
+    <pattern>TEST</pattern>
+    <template>This is a test response. Everything is working correctly.</template>
+  </category>
+
+  <!-- Automation of Common Inquiries -->
+  <!-- Frequently Asked Questions -->
+  <!-- Question 1: Area of interest in computing -->
+  <category>
+    <pattern>IN WHICH AREA OF COMPUTING SHOULD I FOCUS</pattern>
+    <template>
+      There are many exciting areas in computing. Do you prefer working with software, hardware, or data?
+    </template>
+  </category>
+
+  <!-- Follow-up for software preference -->
+  <category>
+    <pattern>SOFTWARE</pattern>
+    <template>
+      If you enjoy working with software, roles like Software Developer or Software Engineer might be a great fit. Are you interested in a particular programming language?
+    </template>
+  </category>
+
+  <!-- Follow-up for interest in programming languages -->
+  <category>
+    <pattern>YES</pattern>
+    <template>
+      Great! Which programming languages are you most interested in? For example, Python, Java, C++, etc.
+    </template>
+  </category>
+
+  <!-- Follow-up asking for specific programming languages -->
+  <category>
+    <pattern>PYTHON</pattern>
+    <template>
+      Python is versatile and widely used in data science, web development, and automation. Are you interested in using Python for web development, data analysis, or machine learning?
+    </template>
+  </category>
+
+  <category>
+    <pattern>JAVA</pattern>
+    <template>
+      Java is a powerful language used in enterprise applications, Android development, and backend systems. Do you see yourself working on mobile apps, backend services, or enterprise solutions?
+    </template>
+  </category>
+
+  <category>
+    <pattern>C++</pattern>
+    <template>
+      C++ is known for its performance and is commonly used in system software, game development, and embedded systems. Would you like to explore careers in game development, systems programming, or embedded systems?
+    </template>
+  </category>
+
+  <!-- Follow-up for no interest in specific programming languages -->
+  <category>
+    <pattern>NO</pattern>
+    <template>
+      No problem! Would you like to explore roles in software development, data science, or cybersecurity instead?
+    </template>
+  </category>
+
+  <!-- More detailed follow-up for Python interests -->
+  <category>
+    <pattern>WEB DEVELOPMENT</pattern>
+    <template>
+      Python is popular for web development, especially with frameworks like Django and Flask. You might enjoy a career as a Web Developer or Full-Stack Developer. Would you like to learn more about these roles?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DATA ANALYSIS</pattern>
+    <template>
+      Python is a powerful tool for data analysis with libraries like Pandas and NumPy. You might consider a career as a Data Analyst or Data Scientist. Would you like more information on these careers?
+    </template>
+  </category>
+
+  <category>
+    <pattern>MACHINE LEARNING</pattern>
+    <template>
+      Python is a leading language for machine learning, with frameworks like TensorFlow and Scikit-learn. A career as a Machine Learning Engineer or AI Specialist might be ideal. Are you interested in pursuing this path?
+    </template>
+  </category>
+
+  <!-- Follow-up for Java interests -->
+  <category>
+    <pattern>MOBILE APPS</pattern>
+    <template>
+      Java is the primary language for Android development. A career as an Android Developer could be a great fit. Would you like to explore this career further?
+    </template>
+  </category>
+
+  <category>
+    <pattern>BACKEND SERVICES</pattern>
+    <template>
+      Java is widely used for building robust backend systems and APIs. You might enjoy a career as a Backend Developer or DevOps Engineer. Would you like more details on these roles?
+    </template>
+  </category>
+
+  <category>
+    <pattern>ENTERPRISE SOLUTIONS</pattern>
+    <template>
+      Java is a key language in building large-scale enterprise applications. A career as a Software Architect or Enterprise Developer might suit you well. Are you interested in learning more about these roles?
+    </template>
+  </category>
+
+  <!-- Follow-up for C++ interests -->
+  <category>
+    <pattern>GAME DEVELOPMENT</pattern>
+    <template>
+      C++ is a top choice for game development due to its performance. You might consider a career as a Game Developer or Graphics Programmer. Would you like to know more about these careers?
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYSTEMS PROGRAMMING</pattern>
+    <template>
+      C++ is widely used in systems programming for developing operating systems, drivers, and high-performance applications. A career as a Systems Programmer or Software Engineer might be ideal. Are you interested in these fields?
+    </template>
+  </category>
+
+  <category>
+    <pattern>EMBEDDED SYSTEMS</pattern>
+    <template>
+      C++ is essential in embedded systems development, where performance and efficiency are critical. You might enjoy a career as an Embedded Systems Engineer. Would you like more information on this career?
+    </template>
+  </category>
+
+  <!-- Default response category -->
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that. Could you please ask something else or specify your question?</template>
+  </category>
+</aiml>
